@@ -72,6 +72,8 @@ p {
 
 .hover {
   cursor: pointer;
+  padding: 10px 20px; /* Default padding: 10px top/bottom, 20px left/right */
+  transition: padding 0.3s ease; /* Smooth transition */
 }
 
 @media (width >= 800px) {
